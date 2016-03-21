@@ -125,7 +125,8 @@ layout: default
                     <a href="{{site.baseurl}}/services.html"><strong>All Services</strong></a>
                   </li>
 
-                  <li class="dropdown-header"><strong>GOVERNMENT</strong></li>
+                  <li>
+                    <a href="{{site.baseurl}}/services/government.html"><strong>GOVERNMENT</strong></li></a>
                   <li class="{% if page.url contains 'it-support-services' %}active{% endif %}">
                     <a href="{{site.baseurl}}/services/government/it-support-services.html">IT Support Services</a>
                   </li>
@@ -143,9 +144,11 @@ layout: default
                   </li>
 
 
-                  <li class="dropdown-header"><strong>SMALL-MEDIUM BUSINESS</strong></li>
+                  <li>
+                    <a href="{{site.baseurl}}/services/small-medium-business.html"><strong>SMALL-MEDIUM BUSINESS</strong></a>
+                  </li>
                   <li class="{% if page.url contains 'microsoft-office' %}active{% endif %}">
-                    <a href="{{site.baseurl}}/services\small-medium-business/microsoft-office-365.html">Microsoft Office 360</a>
+                    <a href="{{site.baseurl}}/services/small-medium-business/microsoft-office-365.html">Microsoft Office 360</a>
                   </li>
                   <li class="{% if page.url contains 'website-application-development' %}active{% endif %}">
                     <a href="{{site.baseurl}}/services/small-medium-business/website-application-development.html">Website Application Development</a>
@@ -157,7 +160,9 @@ layout: default
                     <a href="{{site.baseurl}}/services/small-medium-business/managed-it-services.html">Managed IT Services</a>
                   </li>
 
-                  <li class="dropdown-header"><strong>LARGE BUSINESS</strong></li>
+                  <li>
+                    <a href="{{site.baseurl}}/services/large-business.html"><strong>LARGE BUSINESS</strong></a>
+                  </li>
                   <li class="{% if page.url contains 'systems-integration' %}active{% endif %}">
                     <a href="{{site.baseurl}}/services/large-business/systems-integration.html">Systems Integration</a>
                   </li>
@@ -254,12 +259,9 @@ layout: default
               <div class="col-md-3 md-margin-bottom-40">
                   <div class="headline"><h2>Services</h2></div>
                   <ul class="list-unstyled link-list">
-                      <li><a href="">Application Development</a><i class="fa fa-angle-right"></i></li>
-                      <li><a href="#">Application Management</a><i class="fa fa-angle-right"></i></li>
-                      <li><a href="#">Microsoft Cloud Solutions</a><i class="fa fa-angle-right"></i></li>
-                      <li><a href="#">System Integration</a><i class="fa fa-angle-right"></i></li>
-                      <li><a href="#">Technology Consulting</a><i class="fa fa-angle-right"></i></li>
-                      <li><a href="#">Technology Infrastructure Services</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="{{site.baseurl}}/services/government.html">Government</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="{{site.baseurl}}/services/small-medium-business.html">Small-medium Business</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="{{site.baseurl}}/services/large-business.html">Large Business</a><i class="fa fa-angle-right"></i></li>
                   </ul>
               </div><!--/col-md-3-->
               <!-- End Services List -->
