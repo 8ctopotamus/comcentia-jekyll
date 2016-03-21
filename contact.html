@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+    <!--=== Content Part ===-->
+    <div class="container content">
+        <div class="row margin-bottom-30">
+            <div class="col-md-9 mb-margin-bottom-30">
+                <div class="headline"><h2>Contact Form</h2></div>
+                <p>Comcentia believes that what a company stands for is as important as what it produces. We provide our customers with numerous ways of obtaining information and sending us their feedback. We encourage customers to contact us with their feedback, comments and questions.</p><br />
+
+                    <form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form sky-changes-3">
+                    <fieldset>
+                        <div class="row">
+                            <section class="col col-6">
+                                <label class="label">Name*</label>
+                                <label class="input">
+                                    <i class="icon-append fa fa-user"></i>
+                                    <input type="text" name="name" id="name">
+                                </label>
+                            </section>
+                            <section class="col col-6">
+                                <label class="label">E-mail*</label>
+                                <label class="input">
+                                    <i class="icon-append fa fa-envelope-o"></i>
+                                    <input type="email" name="email" id="email">
+                                </label>
+                            </section>
+                        </div>
+
+                        <div class="row">
+                            <section class="col col-6">
+                                <label class="label">Office Phone</label>
+                                <label class="input">
+                                    <i class="icon-append fa fa-phone"></i>
+                                    <input type="text" name="name" id="name">
+                                </label>
+                            </section>
+                            <section class="col col-6">
+                                <label class="label">Company</label>
+                                <label class="input">
+                                    <i class="icon-append fa fa-building"></i>
+                                    <input type="text" name="email" id="email">
+                                </label>
+                            </section>
+                        </div>
+
+                        <section>
+                            <label class="label">Subject</label>
+                            <label class="input">
+                                <i class="icon-append fa fa-tag"></i>
+                                <input type="text" name="subject" id="subject">
+                            </label>
+                        </section>
+
+                        <section>
+                            <label class="label">Please Describe Your Interest Below*</label>
+                            <label class="textarea">
+                                <i class="icon-append fa fa-comment"></i>
+                                <textarea rows="4" name="message" id="message"></textarea>
+                            </label>
+                        </section>
+
+                        <section>
+                            <label class="label">Enter characters below:</label>
+                            <label class="input input-captcha">
+                                <img src="assets/plugins/sky-forms-pro/skyforms/captcha/image.php?<?php echo time(); ?>" width="100" height="32" alt="Captcha image" />
+                                <input type="text" maxlength="6" name="captcha" id="captcha">
+                            </label>
+                        </section>
+
+                        <section>
+                            <label class="checkbox"><input type="checkbox" name="copy"><i></i>Send a copy to my e-mail address</label>
+                        </section>
+                    </fieldset>
+
+                    <footer>
+                        <button type="submit" class="btn-u">Send message</button>
+                    </footer>
+
+                    <div class="message">
+                        <i class="rounded-x fa fa-check"></i>
+                        <p>Your message was successfully sent!</p>
+                    </div>
+                </form>
+            </div><!--/col-md-9-->
+
+            <div class="col-md-3">
+                <!-- Contacts -->
+                <div class="headline"><h2>Contacts</h2></div>
+                <ul class="list-unstyled who margin-bottom-30">
+
+
+                    <li><a href="#"><i class="fa fa-home"></i>1025 W. Glen Oaks Lane Suite 211 <br /> Mequon, WI  53092<br /></a></li>
+                    <li><a href="mailto:info@comcentia.com" class=""><i class="fa fa-envelope"></i>info@comcentia.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>+1.414.871.1100</a></li>
+                    <li><a href="http://comcentia.com"><i class="fa fa-globe"></i>http://comcentia.com</a></li>
+                </ul>
+
+                <!-- Business Hours -->
+                <div class="headline"><h2>Business Hours</h2></div>
+                <ul class="list-unstyled margin-bottom-30">
+                    <li><strong>Monday-Friday:</strong> 8am to 5pm</li>
+                    <li><strong>Saturday:</strong> Closed</li>
+                    <li><strong>Sunday:</strong> Closed</li>
+                </ul>
+
+            </div><!--/col-md-3-->
+        </div><!--/row-->
+
+    </div><!--/container-->
+    <!--=== End Content Part ===-->
+
+<?php include('inc/footer.php'); ?>

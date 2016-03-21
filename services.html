@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="container content margin-bottom-40">
+  <h1>Services
+  <br> IT Services for Government, Small-to-Midsize, and Large Businesses</h1>
+
+  <p>Comcentia specializes in rapid development of mission-critical web applications, on time and on budget, for government, small-to-midsize businesses, and large enterprise businesses. Our custom application development is tailored to the needs of your supply chain, organization, department, or team.</p>
+
+
+<div class="row">
+  {% for service in site.data.service-types %}
+    <div class="col-sm-4">
+      hi
+      <!-- <a href="{{site.baseurl}}/services/{{service.folder}}/" class="{% if page.url contains planet.folder %}current{% endif %}">{{service.title}}</a> -->
+    </div>
+  {% endfor %}
+
+</div>
+
+  <h2>Comcentia Services for Government Clients</h2>
+  <ul>
+    <li>IT Support Services</li>
+    <li>Business Intelligence</li>
+    <li>Microsoft&reg; Cloud Services</li>
+    <li>Enterprise Application Development</li>
+    <li>Technology Consulting and Staffing</li>
+  </ul>
+
+  <h2>Comcentia Services for Small-to-Midsize Businesses</h2>
+<ul>
+  <li>Microsoft Office 365</li>
+  <li>Website Application Development</li>
+  <li>Application Integration</li>
+  <li>Managed IT Services</li>
+</ul>
+
+  <h2>Comcentia Services for Large Businesses</h2>
+<ul>
+  <li>Technology Consulting</li>
+  <li>Systems Integration</li>
+  <li>Mobile Application Development</li>
+  <li>Enterprise Software Development</li>
+</ul>
+
+</div>
+<!-- end container -->
