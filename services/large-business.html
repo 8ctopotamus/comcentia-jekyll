@@ -2,15 +2,32 @@
 layout: default
 ---
 
-<div class="container margin-bottom-40">
-  <h1>Large Business Services</h1>
-  <p>Security and Continuity for Corporate Clients</p>
-  <h1>Comcentia Services for Large Businesses</h1>
+{% include page-header.html bg-image="http://placehold.it/1000x350/000000"
+                            title="Large Business Services"
+                            desc="Security and Continuity for Corporate Clients" %}
+
+<div class="container content margin-bottom-40">
+
+  <h2>Comcentia Services for Large Businesses</h2>
   <p>Comcentia consultants are committed to assisting large corporate clients develop more efficient and responsive relationships within their organization and for their customers. Comcentia services for large businesses include:</p>
-  <ul>
-  <li>Technology Consulting</li>
-  <li>Systems Integration</li>
-  <li>Mobile Application Development</li>
-  <li>Enterprise Software Development</li>
-  </ul>
+
+    <ul class="list-group">
+      <a class="list-group-item" href="{{site.baseurl}}/services/large-business/technology-consulting.html">
+        <h4 class="list-group-item-heading">Technology Consulting</h4>
+        <p class="list-group-item-text">We work with all organization levels to evaluate existing processes and workplace tools to find best practices and gaps that affect how a corporation serves its customers and employees.</p>
+      </a>
+      <a class="list-group-item" href="{{site.baseurl}}/services/large-business/systems-integration.html">
+        <h4 class="list-group-item-heading">Systems Integration</h4>
+        <p class="list-group-item-text">Your system is the sum of all IT parts. Comcentia determines the best use of available resources to get the most out of your equipment, applications, and networks without compromising security and safety.</p>
+      </a>
+      <a class="list-group-item" href="{{site.baseurl}}/services/large-business/mobile-application-development.html">
+        <h4 class="list-group-item-heading">Mobile Application Development</h4>
+        <p class="list-group-item-text">Comcentia keeps your organization at the forefront of commerce and communication using mobile applications.</p>
+      </a>
+      <a class="list-group-item" href="{{site.baseurl}}/services/large-business/enterprise-software-development.html">
+        <h4 class="list-group-item-heading">Enterprise Software Development</h4>
+        <p class="list-group-item-text">We understand the complexity of developing something that is powerful yet perceived as simple. Our programmers and consultants are your partners to design, plan, and then implement software applications that are coordinated across your entire organization.</p>
+      </a>
+    </ul>
+
 </div>

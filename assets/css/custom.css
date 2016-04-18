@@ -1074,7 +1074,8 @@
 }
 
 .page-title-jumbotron {
-	background-position:70% 40%;
+	/*background-position:70% 40%;*/
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -1083,7 +1084,7 @@
 }
 
 .page-title-jumbotron .col-title-tagline {
-	text-align: right;
+	/*text-align: right;*/
 }
 
 .page-title-jumbotron h1,
