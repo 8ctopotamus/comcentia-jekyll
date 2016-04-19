@@ -1090,12 +1090,8 @@
 		background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(24,84,133,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(24,84,133,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc185485',GradientType=0 ); /* IE6-9 */
-	
 
-}
 
-.page-title-jumbotron .col-title-tagline {
-	/*text-align: right;*/
 }
 
 .page-title-jumbotron h1,
@@ -1106,6 +1102,7 @@
 .page-title-jumbotron h1 {
 	font-size: 48px;
 	color: #fff;
+	line-height: 54px;
 }
 .page-title-jumbotron h3 {
 	font-size: 22px;
@@ -1145,10 +1142,6 @@
     margin-left:auto;
     margin-right:auto;
 }*/
-
-
-
-
 
 @media (max-width: 767px){
 	.header {
