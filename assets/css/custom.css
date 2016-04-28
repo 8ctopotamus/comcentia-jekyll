@@ -982,6 +982,36 @@
 	font-size: 4em;
 }
 
+.gradient {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,185485+100&0.8+0,0.8+100 */
+			background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(24,84,133,0.8) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(24,84,133,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(24,84,133,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc185485',GradientType=0 ); /* IE6-9 */
+}
+
+/* new homepage carousel */
+
+#comcentia-home-carousel {
+	margin-bottom: 60px;
+}
+
+#comcentia-home-carousel .carousel-caption {
+	position: static;
+	padding: 120px 0;
+}
+#comcentia-home-carousel h2 {
+	line-height: 1.4em;
+	color: #fff;
+	font-size: 3em;
+}
+#comcentia-home-carousel .item {
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-size: 100%;*/
+	background-size: cover;
+}
+
 @media screen and (max-width: 767px) {
 .jumbotron-bkgd {background-position: center;}
 

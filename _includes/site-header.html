@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Welcome to Comcentia | Comcentia</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico">
+
+    <!-- Web Fonts -->
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/animate.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/parallax-slider/css/parallax-slider.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+
+    <!-- sky forms -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">
+    <!--[if lt IE 9]>
+        <style type="text/css">
+            .gradient {
+               filter: none;
+            }
+          </style>
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css">
+    <![endif]-->
+
+    <!-- Careers page -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/pages/page_job.css">
+
+    <!-- Contact Page -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/pages/page_contact.css">
+
+    <!--Comcentia Colors css-->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme-colors/comcentia-colors.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/custom.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+  <div class="header-v1">
+      <!-- Topbar -->
+      <div class="topbar-v1">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <ul class="list-inline top-v1-contacts">
+                          <li>
+                              <i class="fa fa-envelope"></i> Email: <a href="mailto:info@comcentia.com">info@comcentia.com</a>
+                          </li>
+                          <li>
+                              <i class="fa fa-phone"></i> Phone: +1.414.871.1100
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="col-md-6">
+                      <ul class="list-inline top-v1-data">
+                          <li><em><strong>Agile, Scalable, Purposeful IT Solutions</strong></em></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- End Topbar -->
+
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+            <a class="navbar-brand" href="{{site.baseurl}}/index.html">
+              <img src="{{site.baseurl}}/assets/img/comcentia-img/comcentia-logo.png" alt="Comcentia Logo">
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+              <li class="dropdown {% if page.url contains 'about' or page.url contains 'meet-team' or page.url contains 'approach' %} active{% endif %}">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                <ul class="dropdown-menu">
+                  <li class="{% if page.url contains 'about' %}active{% endif %}">
+                      <a href="{{site.baseurl}}/about.html">About Us</a>
+                  </li>
+                  <li class="{% if page.url contains 'meet-team' %}active{% endif %}">
+                      <a href="{{site.baseurl}}/meet-team.html">Meet the Team</a>
+                  </li>
+                  <li class="{% if page.url contains 'approach' %}active{% endif %}">
+                      <a href="{{site.baseurl}}/approach">Our Approach</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown {% if page.url contains 'services' %}active{% endif %}">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu">
+                  <li class="{% if page.url contains 'all-services' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services.html"><strong>ALL SERVICES</strong></a>
+                  </li>
+
+                  <li>
+                    <a href="{{site.baseurl}}/services/government.html"><strong>GOVERNMENT</strong></li></a>
+                  <li class="{% if page.url contains 'it-support-services' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/government/it-support-services.html">IT Support Services</a>
+                  </li>
+                  <li class="{% if page.url contains 'business-intelligence' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/government/business-intelligence-services.html">Business Intelligence Services</a>
+                  </li>
+                  <li class="{% if page.url contains 'microsoft-cloud-services' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/government/microsoft-cloud-services.html">Microsoft Cloud Services</a>
+                  </li>
+                  <li class="{% if page.url contains 'enterprise-application-development' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/government/enterprise-application-development.html">Enterprise Application Development</a>
+                  </li>
+                  <li class="{% if page.url contains 'government/technology-consulting-staffing' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/government/technology-consulting-staffing.html">Technology Consulting and Staffing</a>
+                  </li>
+
+
+                  <li>
+                    <a href="{{site.baseurl}}/services/small-medium-business.html"><strong>SMALL-MEDIUM BUSINESS</strong></a>
+                  </li>
+                  <li class="{% if page.url contains 'microsoft-office' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/small-medium-business/microsoft-office-365.html">Microsoft Office 365</a>
+                  </li>
+                  <li class="{% if page.url contains 'website-application-development' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/small-medium-business/website-application-development.html">Website Application Development</a>
+                  </li>
+                  <li class="{% if page.url contains 'application-integration' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/small-medium-business/application-integration.html">Applicaton Integration</a>
+                  </li>
+                  <li class="{% if page.url contains 'managed-it-services' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/small-medium-business/managed-it-services.html">Managed IT Services</a>
+                  </li>
+
+                  <li>
+                    <a href="{{site.baseurl}}/services/large-business.html"><strong>LARGE BUSINESS</strong></a>
+                  </li>
+                  <li class="{% if page.url contains 'systems-integration' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/large-business/systems-integration.html">Systems Integration</a>
+                  </li>
+                  <li class="{% if page.url contains 'mobile-application-development' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/large-business/mobile-application-development.html">Mobile Application Development</a>
+                  </li>
+                  <li class="{% if page.url contains 'large-business/technology-consulting' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/large-business/technology-consulting.html">Technology Consulting</a>
+                  </li>
+                  <li class="{% if page.url contains 'enterprise-software' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/services/large-business/enterprise-software-development.html">Enterprise Software Development</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Careers</a>
+                <ul class="dropdown-menu">
+                  <li class="{% if page.url contains 'careers' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/careers.html"><strong>Careers</strong></a>
+                  </li>
+
+                  <li class="{% if page.url contains 'candidate-management' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/candidate-management.html">Candidate Management</a>
+                  </li>
+                  <li class="{% if page.url contains 'recruiter-management' %}active{% endif %}">
+                    <a href="{{site.baseurl}}/recruiter-management.html">Recruiter Management</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="{% if page.url contains 'contact' %}active{% endif %}">
+                  <a href="{{site.baseurl}}/contact.html">
+                      Contact
+                  </a>
+              </li>
+
+              <li class="{% if page.url contains 'news' %}active{% endif %}">
+                  <a href="{{site.baseurl}}/news.html">
+                      News
+                  </a>
+              </li>
+
+              <li class="{% if page.url contains 'events' %}active{% endif %}">
+                  <a href="{{site.baseurl}}/events.html">
+                      Events
+                  </a>
+              </li>
+
+              <li class="{% if page.url contains 'case-studies' %}active{% endif %}">
+                  <a href="{{site.baseurl}}/case-studies.html">
+                      Case Studies
+                  </a>
+              </li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+  </div>
+  <!-- END HEADER -->

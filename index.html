@@ -6,12 +6,53 @@ priority: 1.0
 ---
 
 
-<div class="jumbotron-bkgd margin-bottom-40">
+<div id="comcentia-home-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#comcentia-home-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#comcentia-home-carousel" data-slide-to="1"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image: url({{site.baseurl}}/assets/img/comcentia-img/milwaukee.jpg);">
+      <div class="gradient">
+        <div class="carousel-caption">
+          <h2>Agile, Scalable, Purposeful IT Solutions</h2>
+          <h3 style="color: white;">For Small Businesses, Large Corporations, and Government Organizations</h3>
+          <a href="{{site.baseurl}}/services.html" class="btn btn-custom-spin btn-lg">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="item" style="background-image: url({{site.baseurl}}/assets/img/comcentia-img/milwaukee-skyline.jpg);">
+      <div class="gradient">
+        <div class="carousel-caption">
+          <h2>Information is the past, present, and future of your company</h2>
+          <h3 style="color: white;">Invest in a secure, reliable, and sustainable IT environment"</h3>
+          <a href="{{site.baseurl}}/about.html" class="btn btn-custom-spin btn-lg">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#comcentia-home-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#comcentia-home-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- <div class="jumbotron-bkgd margin-bottom-40">
     <div class="jumbotron text-center">
 
         <div class="carousel slide vertical" id="myCarousel">
             <div class="carousel-inner">
-                <div class="item active animated fadeInUp" style="margin-top:35px;">
+                <div class="item active animated fadeInUp" style="margin-top:35px; background-image">
                     <h2>Agile, Scalable, Purposeful IT Solutions</h2>
                     <h3 style="color: white;">For Small Businesses, Large Corporations, and Government Organizations</h3>
                     <a href="{{site.baseurl}}/services.html" class="btn btn-custom-spin btn-lg">Learn More</a>
@@ -25,7 +66,7 @@ priority: 1.0
         </div>
 
     </div>
-</div>
+</div> -->
 
 
 <div class="container">
