@@ -1,5 +1,10 @@
 /* Add here all your css styles (customizations) */
 
+.da-slider {
+	background: transparent url(../img/comcentia-img/milwaukee-pano-bw.jpg) repeat 0% 0%;
+}
+
+
 /*EDITED Top Bar v1 (login, search etc.)
 ------------------------------------*/
 .header-v1 .topbar-v1 {
