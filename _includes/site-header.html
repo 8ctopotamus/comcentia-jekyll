@@ -196,15 +196,9 @@
                   </a>
               </li>
 
-              <li class="{% if page.url contains 'news' %}active{% endif %}">
+              <li class="{% if page.url contains 'news' or 'events' %}active{% endif %}">
                   <a href="{{site.baseurl}}/news.html">
-                      News
-                  </a>
-              </li>
-
-              <li class="{% if page.url contains 'events' %}active{% endif %}">
-                  <a href="{{site.baseurl}}/events.html">
-                      Events
+                      News &amp; Events
                   </a>
               </li>
 
